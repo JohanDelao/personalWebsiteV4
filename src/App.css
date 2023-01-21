@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono:wght@700&family=Poppins&family=Public+Sans:wght@400;700&family=Sofia+Sans:wght@700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root{
+  --body-font: 20px;
+  --big-body-font: 24px;
+  --medium-header: 40px;
+  --large-header: 72px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  --almost-white: #E6E5EA;
+  --dark-grey: #24232C;
+  --orange: #F8CD65;
+  --very-dark-grey: #18171F;
+  --grey: #9E99B4;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  margin: 0;
+  font-family: 'Sofia Sans', sans-serif;
+}
+.smallP{
+  font-size: var(--body-font);
+  line-height: 25px;
+  margin: 0;
+}
+.bodyP{
+  font-size: var(--big-body-font);
+  line-height: 30px;
+  margin: 0;
+}
+.mediumHeader{
+  font-size: var(--medium-header);
+  line-height: 51px;
+  margin: 0;
+}
+.largeHeader{
+  font-size: var(--large-header);
+  line-height: 84px;
+  margin: 0;
+}
+.headingPage{
+  margin: 0 auto;
+  background: var(--very-dark-grey);
+}
+.inner{
+  width: 75rem;
+  margin: 0 auto;
+}
+.navHeader{
+  font-family: 'Sofia Sans', sans-serif;
+  color: var(--orange);
+}
+.headingPage{
+  padding: 1rem;
+}
+.heading{
+  margin-top: 2rem;
+}
+.heading p{
+  font-family: 'Sofia Sans', sans-serif;
+  font-weight: 700;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#slack{
+  color: var(--orange);
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#slack:hover{
+  border-bottom: 3px solid var(--orange);
 }
+#slackhref{
+  text-decoration: none;
+}
+.subText{
+  margin-top: 2rem;
+}
+.subText .smallP{
+  font-family: 'Sofia Sans', sans-serif;
+  color: white;
+  font-size: 12px;
+}
+#myPic{
+  border-radius: 10px;
+}
+.aboutMe{
+  margin-top: 4rem;
+}
+.mediumHeader .aboutMe{
+  font-size: var(--medium-header);
+}
+.aboutMeFlex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rightAboutMe{
+  width: 32.5rem
+}
+.rightAboutMe .smallP{
+  font-family: 'Public Sans', sans-serif;
+  text-align: justify;
+  margin-top: 1rem;
+}
+.skill .smallP{
+  color: #9E99B4;
+}
+.skillFlex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skillSection{
+  margin-top: 4rem;
+}
+.sectionHeader{
+  color: var(--orange);
+  border-bottom: 3px solid var(--orange);
+  width: fit-content;
+}
+.ExperienceSection{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.experiences{
+  margin-top: 2rem;
+}
+.experience{
+  width: 70%;
+  margin: 0 auto;
+}
+.experiences:first-child{
+  margin-top: 0;
+}
+.experienceDescription{
+  margin: 0;
+  margin-top: .5rem;
+  padding-left: 1rem;
+}
+.experienceBullet{
+  font-family: 'Public Sans', sans-serif;
+  font-size: var(--body-font);
+  margin-top: .2rem;
+  text-align: justify;
+}
+.topExperience{
+  display: flex;
+  justify-content: space-between;
+}
+.projects{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.project img{
+  border: 1px solid var(--very-dark-grey);
+}
+.project .smallP{
+  color: var(--grey);
+}
+.bar{
+  height: 75px;
+  width: 5px;
+  background-color: #18171F;
+}
+.bar.selected{
+  background-color: var(--orange);
+}
+.leftBarExperience{
+  display: flex;
+}
+.ExperienceName{
+  width: fit-content;
+  height: fit-content;
+  margin: auto 0;
+  margin-left: .5rem;
+  font-size: var(--big-body-font);
+  cursor: pointer;
+}
+.ExperienceName:hover{
+  color: var(--orange);
+}
+.experienceHeader{
+  display: flex;
+}
+.ExperienceExperiment{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  height: 15rem;
+}
+#experienceTitle{
+  margin-right: 5px;
+}
+.rightExperience{
+  width: 33rem;
+}
+#company{
+  color: var(--orange);
+  font-size: var(--big-body-font);
+}
+.ExperienceName.selected{
+  color: var(--orange);
+}
+.contactSection{
+  text-align: center;
+  margin: 4rem 0;
+}
+.contactSection .mediumHeader{
+  color: var(--orange);
+}
+.contactMessage{
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Public Sans', sans-serif;
+}
+/* @media only screen and (max-width: 1505px) {
+  .inner {
+    width: 80%;
+  }
+} */
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%)
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+} 
