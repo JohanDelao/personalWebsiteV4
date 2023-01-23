@@ -9,19 +9,19 @@ function Project(){
                 <div className="mediumHeader sectionHeader">Projects</div>
                 <div className="projects">
                     <div className="project">
-                        <img src={pokedex} height="225"></img>
+                        <img src={pokedex} height="225" alt="homepage of Pokedex project"></img>
                         <p className="bodyP">PokeDex</p>
-                        <p className="smallP">HTML      CSS     JavaScript</p>
+                        <p className="smallP">HTML,      CSS,     JavaScript</p>
                     </div>
                     <div className="project">
-                        <img src={trilogy} height="225"></img>
+                        <img src={trilogy} height="225" alt="chrome extension popup"></img>
                         <p className="bodyP">Trilogy</p>
-                        <p className="smallP">HTML      CSS</p>
+                        <p className="smallP">HTML,      CSS</p>
                     </div>
                     <div className="project">
-                        <img src={macro} height="225"></img>
+                        <img src={macro} height="225" alt="gif of macrocounter"></img>
                         <p className="bodyP">MacroCounter</p>
-                        <p className="smallP">Java Android Studio</p>
+                        <p className="smallP">Java, Android Studio</p>
                     </div>
                 </div>
             </div>
