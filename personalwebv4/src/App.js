@@ -8,6 +8,7 @@ import HeadingPage from './components/HeadingPage';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skill';
 import Project from './components/Project';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Experience />
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 }

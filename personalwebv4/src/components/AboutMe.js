@@ -1,4 +1,4 @@
-import myImage from "../images/project/mePic(2).jpg"
+import myImage from "../images/project/mePic.jpg"
 
 function AboutMe(){
     return (
@@ -6,7 +6,7 @@ function AboutMe(){
             <div className="inner">
                 <div className="aboutMeFlex">
                     <div className="leftAboutMe">
-                        <img id="myPic" src={myImage} width="300"></img>
+                        <img id="myPic" src={myImage} alt="picture of myself" width="300"></img>
                     </div>
                     <div className="rightAboutMe">
                         <p className="mediumHeader sectionHeader">About Me</p>

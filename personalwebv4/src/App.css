@@ -8,9 +8,9 @@
 
   --almost-white: #E6E5EA;
   --dark-grey: #24232C;
-  --orange: #F8CD65;
+  --orange: #E18335;
   --very-dark-grey: #18171F;
-  --grey: #9E99B4;
+  --grey: #777297;
 }
 body{
   margin: 0;
@@ -41,7 +41,7 @@ body{
   background: var(--very-dark-grey);
 }
 .inner{
-  width: 75rem;
+  width: 73.75rem;
   margin: 0 auto;
 }
 .navHeader{
@@ -75,7 +75,7 @@ body{
 .subText .smallP{
   font-family: 'Sofia Sans', sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
 }
 #myPic{
   border-radius: 10px;
@@ -100,7 +100,7 @@ body{
   margin-top: 1rem;
 }
 .skill .smallP{
-  color: #9E99B4;
+  color: var(--grey);
 }
 .skillFlex{
   display: flex;
@@ -145,7 +145,7 @@ body{
   justify-content: space-between;
 }
 .projects{
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -208,9 +208,33 @@ body{
   color: var(--orange);
 }
 .contactMessage{
-  width: 60%;
+  width: 50rem;
   margin: 0 auto;
+  margin-top: 1rem;
   font-family: 'Public Sans', sans-serif;
+}
+.footer{
+  background-color: var(--dark-grey);
+  height: 5rem;
+}
+.footerInner{
+  display: flex;
+  color: var(--almost-white);
+}
+.footer .inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+.iconLinks{
+  width: 8.125rem;
+  display: flex;
+  justify-content: space-between;
+}
+.icon:hover{
+  cursor: pointer;
 }
 /* @media only screen and (max-width: 1505px) {
   .inner {

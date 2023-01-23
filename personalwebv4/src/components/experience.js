@@ -1,32 +1,15 @@
+import { useState } from "react";
+
 function Experience() {
+    const [experience, setExperience] = useState({title: "Website Developer", company: " @ Research Foundation CUNY", date: "June 2022 - Present", bulletOne: "Update and maintain the CEESP program website using WordPress, CSS, and HTML.", bulletTwo: "Troubleshoot bugs from the existing website to decrease load times by 10%.", bulletThree: "Improved user experience and increased applications by 16% by experimenting with design changes."});
+
     function DisplayCodePath(){
-        const title = document.getElementById("experienceTitle");
-        const date = document.getElementById("experienceDate");
-        const company = document.getElementById("company");
-        const bulletOne = document.getElementById("bulletOne");
-        const bulletTwo = document.getElementById("bulletTwo");
-        const bulletThree = document.getElementById("bulletThree")
         const experienceOne = document.getElementById("experienceOne");
         const experienceTwo = document.getElementById("experienceTwo");
         const experienceThree = document.getElementById("experienceThree");
         const barOne = document.getElementById("barOne");
         const barTwo = document.getElementById("barTwo");
         const barThree = document.getElementById("barThree");
-
-
-        let titleCodePath = "Android Development Fellow";
-        let dateCodePath = "Jan 2021 - May 2021";
-        let companyCodePath = "@ CodePath";
-        let bulletOneCodePath = "Worked in a team of four to develop an Android application using Agile practices.";
-        let bulletTwoCodePath = "Developed 5+ Android applications using Android Studio, Java, Github and other in-demand technologies."
-        let bulletThreeCodePath = "Worked on around 3 features in a fast-paced setting in biweekly sprints.";
-
-        date.innerHTML = dateCodePath;
-        company.innerHTML = companyCodePath;
-        title.innerHTML = titleCodePath;
-        bulletOne.innerHTML = bulletOneCodePath;
-        bulletTwo.innerHTML = bulletTwoCodePath;
-        bulletThree.innerHTML = bulletThreeCodePath;
 
         if(experienceOne.classList.contains("selected")){
             experienceOne.classList.remove("selected")
@@ -39,34 +22,18 @@ function Experience() {
 
         experienceThree.classList.add("selected");
         barThree.classList.add("selected")
+
+        setExperience(prevExperience => {
+            return {title: "Android Development Fellow", company: " @ CodePath", date: "Jan. 2021 - May 2021", bulletOne: "Worked in a team of four to develop an Android application using Agile practices.", bulletTwo: "Developed 5+ Android applications using Android Studio, Java, Github and other in-demand technologies.", bulletThree: "Worked on around 3 features in a fast-paced setting in biweekly sprints."};
+        });
     }
     function DisplayCUNY(){
-        const title = document.getElementById("experienceTitle");
-        const date = document.getElementById("experienceDate");
-        const company = document.getElementById("company");
-        const bulletOne = document.getElementById("bulletOne");
-        const bulletTwo = document.getElementById("bulletTwo");
-        const bulletThree = document.getElementById("bulletThree")
         const experienceOne = document.getElementById("experienceOne");
         const experienceTwo = document.getElementById("experienceTwo");
         const experienceThree = document.getElementById("experienceThree");
         const barOne = document.getElementById("barOne");
         const barTwo = document.getElementById("barTwo");
         const barThree = document.getElementById("barThree");
-
-        let titleCUNY = "Website Developer";
-        let dateCUNY = "June 2022 - Present";
-        let companyCUNY = "@ Research Foundation CUNY";
-        let bulletOneCUNY = "Update and maintain the CEESP program website using WordPress, CSS, and HTML.";
-        let bulletTwoCUNY = "Troubleshoot bugs from the existing website to decrease load times by 10%.";
-        let bulletThreeCUNY = "Improved user experience and increased applications by 16% by experimenting with design changes.";
-        
-        date.innerHTML = dateCUNY;
-        company.innerHTML = companyCUNY;
-        title.innerHTML = titleCUNY;
-        bulletOne.innerHTML = bulletOneCUNY;
-        bulletTwo.innerHTML = bulletTwoCUNY;
-        bulletThree.innerHTML = bulletThreeCUNY;
 
         if(experienceTwo.classList.contains("selected")){
             experienceTwo.classList.remove("selected")
@@ -79,34 +46,18 @@ function Experience() {
 
         experienceOne.classList.add("selected");
         barOne.classList.add("selected")
+
+        setExperience(prevExperience => {
+            return {title: "Website Developer", company: " @ Research Foundation CUNY", date: "June 2022 - Present", bulletOne: "Update and maintain the CEESP program website using WordPress, CSS, and HTML.", bulletTwo: "Troubleshoot bugs from the existing website to decrease load times by 10%.", bulletThree: "Improved user experience and increased applications by 16% by experimenting with design changes."};
+        });
     }
     function DisplayMeta(){
-        const title = document.getElementById("experienceTitle");
-        const date = document.getElementById("experienceDate");
-        const company = document.getElementById("company");
-        const bulletOne = document.getElementById("bulletOne");
-        const bulletTwo = document.getElementById("bulletTwo");
-        const bulletThree = document.getElementById("bulletThree")
         const experienceOne = document.getElementById("experienceOne");
         const experienceTwo = document.getElementById("experienceTwo");
         const experienceThree = document.getElementById("experienceThree");
         const barOne = document.getElementById("barOne");
         const barTwo = document.getElementById("barTwo");
         const barThree = document.getElementById("barThree");
-
-        let titleMeta = "ABCS Program";
-        let dateMeta = "Aug 2022 - Nov 2022";
-        let companyMeta = "@ Meta";
-        let bulletOneMeta = "Participated in a 9-week program focused on mastering critical data structures and algorithms.";
-        let bulletTwoMeta = " Engaged by answering interview-type questions with peers and engineers.";
-        let bulletThreeMeta = "Networked with Meta engineers to learn best practices in software engineering.";
-
-        date.innerHTML = dateMeta;
-        company.innerHTML = companyMeta;
-        title.innerHTML = titleMeta;
-        bulletOne.innerHTML = bulletOneMeta;
-        bulletTwo.innerHTML = bulletTwoMeta;
-        bulletThree.innerHTML = bulletThreeMeta;
 
         if(experienceOne.classList.contains("selected")){
             experienceOne.classList.remove("selected")
@@ -119,6 +70,10 @@ function Experience() {
 
         experienceTwo.classList.add("selected");
         barTwo.classList.add("selected")
+
+        setExperience(prevExperience => {
+            return {title: "ABCS Program", company: "@ Meta", date: "Aug 2022 - Nov 2022", bulletOne: "Participated in a 9-week program focused on mastering critical data structures and algorithms.", bulletTwo: "Engaged by answering interview-type questions with peers and engineers.", bulletThree: "Networked with Meta engineers to learn best practices in software engineering."};
+        });
 
     }
     return (
@@ -142,19 +97,19 @@ function Experience() {
                     </div>
                     <div className="rightExperience">
                         <div className="experienceHeader">
-                            <p className="bodyP" id="experienceTitle">Website Developer </p>
-                            <span id="company"> @ Research Foundation CUNY</span>
+                            <p className="bodyP" id="experienceTitle">{experience.title}</p>
+                            <span id="company">{experience.company}</span>
                         </div>
-                        <p className="smallP" id="experienceDate">June 2022 - Present</p>
+                        <p className="smallP" id="experienceDate">{experience.date}</p>
                         <ul className="experienceDescription">
                                 <li className="experienceBullet" id="bulletOne">
-                                Update and maintain the CEESP program website using WordPress, CSS, and HTML.
+                                    {experience.bulletOne}
                                 </li>
                                 <li className="experienceBullet" id="bulletTwo">
-                                Troubleshoot bugs from the existing website to decrease load times by 10%.
+                                    {experience.bulletTwo}
                                 </li>
                                 <li className="experienceBullet" id="bulletThree">
-                                Improved user experience and increased applications by 16% by experimenting with design changes.
+                                    {experience.bulletThree}
                                 </li>
                         </ul>
                     </div>
