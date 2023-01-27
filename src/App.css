@@ -106,6 +106,7 @@ body{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .skillSection{
   margin-top: 4rem;
@@ -148,6 +149,14 @@ body{
   margin-top: 4rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project a{
+  color: black;
+  text-decoration: none;
+}
+.project a:hover{
+  color: var(--orange);
 }
 .project img{
   border: 1px solid var(--very-dark-grey);
@@ -236,11 +245,101 @@ body{
 .icon:hover{
   cursor: pointer;
 }
-/* @media only screen and (max-width: 1505px) {
-  .inner {
-    width: 80%;
+#sendMessage{
+  background-color: black;
+  color: white;
+  font-size: var(--big-body-font);
+  font-family: 'Sofia Sans', sans-serif;
+  margin-top: 2rem;
+  border: none;
+}
+#sendMessage:hover{
+  background-color: var(--orange);
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  :root{
+    --body-font: 18px;
+    --big-body-font: 22px;
+    --medium-header: 32px;
+    --large-header: 52px;
   }
-} */
+  .inner {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 912px){
+  #macrocounter, #pokedex, #trilogy {
+    height: 200px;
+  }
+  #myPic{
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .ExperienceExperiment{
+    height: auto;
+  }
+  .headingPage{
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .contactMessage{
+    width: auto;
+  }
+  .rightAboutMe{
+    width: 25rem;
+  }
+  .rightExperience{
+    width: 25rem;
+  }
+  .footer{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .projects{
+    display: block;
+  }
+  .aboutMeFlex{
+    display: block;
+    text-align: center;
+  }
+  .leftAboutMe{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .rightAboutMe .sectionHeader{
+    margin: 0 auto;
+  }
+  .rightAboutMe{
+    width: fit-content;
+    margin-top: 1rem;
+  }
+  .ExperienceExperiment{
+    display: block;
+  }
+  .rightExperience{
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .project{
+    margin-top: 2rem;
+  }
+  .project:first-child{
+    margin-top: 0;
+  }
+  .skillSection{
+    text-align: center;
+  }
+  .sectionHeader{
+    margin: 0 auto;
+  }
+  .skillFlex>* {
+    flex: 1 1 160px;
+  }
+}
 @keyframes slideInFromLeft {
   0% {
       transform: translateX(-100%)

@@ -9,18 +9,18 @@ function Project(){
                 <div className="mediumHeader sectionHeader">Projects</div>
                 <div className="projects">
                     <div className="project">
-                        <img src={pokedex} height="225" alt="homepage of Pokedex project"></img>
-                        <p className="bodyP">PokeDex</p>
+                        <img src={pokedex} id="pokedex" height="225" alt="homepage of Pokedex project"></img>
+                        <a href="https://github.com/JohanDelao/pokeDex"><p className="bodyP">PokeDex</p></a>
                         <p className="smallP">HTML,      CSS,     JavaScript</p>
                     </div>
                     <div className="project">
-                        <img src={trilogy} height="225" alt="chrome extension popup"></img>
-                        <p className="bodyP">Trilogy</p>
+                        <img src={trilogy} id="trilogy" height="225" alt="chrome extension popup"></img>
+                        <a href="https://github.com/JohanDelao/Trilogy"><p className="bodyP">Trilogy</p></a>
                         <p className="smallP">HTML,      CSS</p>
                     </div>
                     <div className="project">
-                        <img src={macro} height="225" alt="gif of macrocounter"></img>
-                        <p className="bodyP">MacroCounter</p>
+                        <img src={macro} id="macrocounter" height="225" alt="gif of macrocounter"></img>
+                        <a href="https://github.com/Codepath-Group-7/MacroCounterAndroid"><p className="bodyP">MacroCounter</p></a>
                         <p className="smallP">Java, Android Studio</p>
                     </div>
                 </div>

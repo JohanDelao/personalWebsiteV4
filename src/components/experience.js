@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Experience() {
-    const [experience, setExperience] = useState({title: "Website Developer", company: " @ Research Foundation CUNY", date: "June 2022 - Present", bulletOne: "Update and maintain the CEESP program website using WordPress, CSS, and HTML.", bulletTwo: "Troubleshoot bugs from the existing website to decrease load times by 10%.", bulletThree: "Improved user experience and increased applications by 16% by experimenting with design changes.", codePathSelect: false, cunySelect: true, metaSelect: false});
+    const [experience, setExperience] = useState({title: "Website Developer", company: " @ RF CUNY", date: "June 2022 - Present", bulletOne: "Update and maintain the CEESP program website using WordPress, CSS, and HTML.", bulletTwo: "Troubleshoot bugs from the existing website to decrease load times by 10%.", bulletThree: "Improved user experience and increased applications by 16% by experimenting with design changes.", codePathSelect: false, cunySelect: true, metaSelect: false});
 
     function DisplayCodePath(){
         setExperience( () => {
@@ -10,7 +10,7 @@ function Experience() {
     }
     function DisplayCUNY(){
         setExperience( () => {
-            return {title: "Website Developer", company: " @ Research Foundation CUNY", date: "June 2022 - Present", bulletOne: "Update and maintain the CEESP program website using WordPress, CSS, and HTML.", bulletTwo: "Troubleshoot bugs from the existing website to decrease load times by 10%.", bulletThree: "Improved user experience and increased applications by 16% by experimenting with design changes.", codePathSelect: false, cunySelect: true, metaSelect: false};
+            return {title: "Website Developer", company: " @ RF CUNY", date: "June 2022 - Present", bulletOne: "Update and maintain the CEESP program website using WordPress, CSS, and HTML.", bulletTwo: "Troubleshoot bugs from the existing website to decrease load times by 10%.", bulletThree: "Improved user experience and increased applications by 16% by experimenting with design changes.", codePathSelect: false, cunySelect: true, metaSelect: false};
         });
     }
     function DisplayMeta(){
