@@ -247,11 +247,14 @@ body{
 }
 #sendMessage{
   background-color: black;
+  margin-top: 2rem;
+  border: none;
+}
+#sendMessage a{
   color: white;
   font-size: var(--big-body-font);
   font-family: 'Sofia Sans', sans-serif;
-  margin-top: 2rem;
-  border: none;
+  text-decoration: none;
 }
 #sendMessage:hover{
   background-color: var(--orange);
@@ -309,6 +312,9 @@ body{
     text-align: center;
     width: fit-content;
     margin: 0 auto;
+  }
+  .projects{
+    text-align: center;
   }
   .rightAboutMe .sectionHeader{
     margin: 0 auto;
