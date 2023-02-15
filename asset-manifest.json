@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personalWebsiteV4/static/css/main.9d1358b7.css",
-    "main.js": "/personalWebsiteV4/static/js/main.03432e38.js",
+    "main.css": "/personalWebsiteV4/static/css/main.30bfa583.css",
+    "main.js": "/personalWebsiteV4/static/js/main.1419f83b.js",
     "static/js/787.cf45460a.chunk.js": "/personalWebsiteV4/static/js/787.cf45460a.chunk.js",
     "static/media/macroCounter.gif": "/personalWebsiteV4/static/media/macroCounter.267e100b08416541271b.gif",
     "static/media/pokedex.jpg": "/personalWebsiteV4/static/media/pokedex.3dd5c807fcce60affbec.jpg",
     "static/media/trilopyImage.jpg": "/personalWebsiteV4/static/media/trilopyImage.7d570797e103bf550038.jpg",
     "index.html": "/personalWebsiteV4/index.html",
-    "main.9d1358b7.css.map": "/personalWebsiteV4/static/css/main.9d1358b7.css.map",
-    "main.03432e38.js.map": "/personalWebsiteV4/static/js/main.03432e38.js.map",
+    "main.30bfa583.css.map": "/personalWebsiteV4/static/css/main.30bfa583.css.map",
+    "main.1419f83b.js.map": "/personalWebsiteV4/static/js/main.1419f83b.js.map",
     "787.cf45460a.chunk.js.map": "/personalWebsiteV4/static/js/787.cf45460a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1358b7.css",
-    "static/js/main.03432e38.js"
+    "static/css/main.30bfa583.css",
+    "static/js/main.1419f83b.js"
   ]
 }
