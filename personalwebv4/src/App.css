@@ -350,12 +350,16 @@ body{
   .skillFlex>* {
     flex: 1 1 160px;
   }
-  .footer.inner {
+  .footer .inner {
     display: block;
   }
   .iconLinks{
     width: 100%;
     text-align: center;
+  }
+  .footerInner{
+    margin: 0 auto;
+    width: fit-content;
   }
 }
 @keyframes slideInFromLeft {
