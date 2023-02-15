@@ -10,7 +10,7 @@ function Footer(){
                 <div className="footerInner">
                     <p className="bodyP">johandelao</p>
                     <p className="bodyP" style={{margin: "0 .5rem"}}>|</p>
-                    <p className="bodyP" style={{fontSize: 18}}>@ 2023 Johan Delao</p>
+                    <p className="bodyP" id="copyright" style={{fontSize: 18}}>@ 2023 Johan Delao</p>
                 </div>
                 <div className="iconLinks">
                     <img className="icon" src={email} width="35" height="30"></img>

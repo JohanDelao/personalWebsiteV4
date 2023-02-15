@@ -323,6 +323,11 @@ body{
     width: fit-content;
     margin-top: 1rem;
   }
+  .rightAboutMe .smallP{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
   .ExperienceExperiment{
     display: block;
   }
@@ -344,6 +349,13 @@ body{
   }
   .skillFlex>* {
     flex: 1 1 160px;
+  }
+  .footer.inner {
+    display: block;
+  }
+  .iconLinks{
+    width: 100%;
+    text-align: center;
   }
 }
 @keyframes slideInFromLeft {
