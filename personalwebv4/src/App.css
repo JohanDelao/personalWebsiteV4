@@ -352,11 +352,14 @@ body{
   }
   .footer .inner {
     display: block;
+    padding-top: .75rem;
+    height: fit-content;
   }
   .iconLinks{
     width: 50%;
     text-align: center;
     margin: 0 auto;
+    margin-top: .25rem;
   }
   .footerInner{
     margin: 0 auto;
