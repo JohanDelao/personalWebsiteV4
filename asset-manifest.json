@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personalWebsiteV4/static/css/main.80443e80.css",
+    "main.css": "/personalWebsiteV4/static/css/main.a83de613.css",
     "main.js": "/personalWebsiteV4/static/js/main.bab3fc75.js",
     "static/js/787.cf45460a.chunk.js": "/personalWebsiteV4/static/js/787.cf45460a.chunk.js",
     "static/media/macroCounter.gif": "/personalWebsiteV4/static/media/macroCounter.267e100b08416541271b.gif",
     "static/media/pokedex.jpg": "/personalWebsiteV4/static/media/pokedex.3dd5c807fcce60affbec.jpg",
     "static/media/trilopyImage.jpg": "/personalWebsiteV4/static/media/trilopyImage.7d570797e103bf550038.jpg",
     "index.html": "/personalWebsiteV4/index.html",
-    "main.80443e80.css.map": "/personalWebsiteV4/static/css/main.80443e80.css.map",
+    "main.a83de613.css.map": "/personalWebsiteV4/static/css/main.a83de613.css.map",
     "main.bab3fc75.js.map": "/personalWebsiteV4/static/js/main.bab3fc75.js.map",
     "787.cf45460a.chunk.js.map": "/personalWebsiteV4/static/js/787.cf45460a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80443e80.css",
+    "static/css/main.a83de613.css",
     "static/js/main.bab3fc75.js"
   ]
 }
